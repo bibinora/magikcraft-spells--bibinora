@@ -1,6 +1,6 @@
 const magik = magikcraft.io;
 
-function arrow(repeats = 100000, delay = 1) {
+function arrow(repeats = 1000000000000000000000000000000000000, delay = 1) {
     magik.dixit('Arrow!');
     const sender = magik.getSender();
     const arrow = magik.type("entity.Arrow").class;
